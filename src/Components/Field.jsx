@@ -41,7 +41,7 @@ export default function Field(props) {
       <div className="container my-3">
         <button
           onClick={buttonHandler}
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 my-1"
           disabled={
             mainText.split(" ").filter((element) => {
               return element.length !== 0;
@@ -54,7 +54,7 @@ export default function Field(props) {
         </button>
         <button
           onClick={buttonloHandler}
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 my-1"
           disabled={
             mainText.split(" ").filter((element) => {
               return element.length !== 0;
@@ -67,7 +67,7 @@ export default function Field(props) {
         </button>
         <button
           onClick={upgradeTextHandler}
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 my-1"
           disabled={
             mainText.split(" ").filter((element) => {
               return element.length !== 0;
@@ -80,7 +80,7 @@ export default function Field(props) {
         </button>
       </div>
       <h3>
-        total words{" "}
+        Total words :{" "}
         {
           mainText.split(" ").filter((element) => {
             return element.length !== 0;
